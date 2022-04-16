@@ -1,0 +1,162 @@
+{
+  "@context" : {
+    "PureTitans" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#PureTitans"
+    },
+    "CitizenNumber" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#CitizenNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "IsMilitar" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#IsMilitar",
+      "@type" : "@id"
+    },
+    "Town" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Town"
+    },
+    "SpecialTitans" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#SpecialTitans"
+    },
+    "HasPopulation" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#HasPopulation",
+      "@type" : "@id"
+    },
+    "HasBelievers" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#HasBelievers",
+      "@type" : "@id"
+    },
+    "CanTransformIntoTitan" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#CanTransformIntoTitan",
+      "@type" : "@id"
+    },
+    "TheChurchOfTheWalls" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#TheChurchOfTheWalls"
+    },
+    "House" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#House"
+    },
+    "BelievesIn" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#BelievesIn",
+      "@type" : "@id"
+    },
+    "HasCitizens" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#HasCitizens",
+      "@type" : "@id"
+    },
+    "MarleyArmy" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#MarleyArmy"
+    },
+    "Structures" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Structures"
+    },
+    "IsIn" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#IsIn",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Military" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Military"
+    },
+    "Castle" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Castle"
+    },
+    "HasStructures" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#HasStructures",
+      "@type" : "@id"
+    },
+    "HasAbility" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#HasAbility",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "HasMembers" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#HasMembers",
+      "@type" : "@id"
+    },
+    "Commoner" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Commoner"
+    },
+    "HasHeight" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#HasHeight",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Regions" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Regions"
+    },
+    "LivesIn" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#LivesIn",
+      "@type" : "@id"
+    },
+    "character" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#character"
+    },
+    "CanFight" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#CanFight",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "CanTransform" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#CanTransform",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "TrainingCorps" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#TrainingCorps"
+    },
+    "SocialClasses" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#SocialClasses"
+    },
+    "Nobility" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Nobility"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "Eldia" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Eldia"
+    },
+    "Yaegerists" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Yaegerists"
+    },
+    "CanBecomeHuman" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#CanBecomeHuman",
+      "@type" : "@id"
+    },
+    "Religion" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Religion"
+    },
+    "Marley" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Marley"
+    },
+    "Scoutinglegion" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Scoutinglegion"
+    },
+    "IsBuiltIn" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#IsBuiltIn",
+      "@type" : "@id"
+    },
+    "City" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#City"
+    },
+    "Populations" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Populations"
+    },
+    "Wall" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Wall"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "MilitaryPolice" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#MilitaryPolice"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "Titans" : {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2022/3/AttackOnTitan#Titans"
+    }
+  }
+}
